@@ -4,6 +4,7 @@ import 'package:todo_app/auth/main_page.dart';
 import 'package:todo_app/firebase_options.dart';
 
 void main() async{
+  //hello here
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
